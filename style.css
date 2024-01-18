@@ -1,0 +1,42 @@
+/* Color de fondo del cuerpo */
+body {
+  background-color: #d6efff;
+}
+
+/* Color de fondo de la tarjeta */
+.card {
+  background-color: #ffffff;
+  /* Sombra de la tarjeta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Color de fondo del encabezado de la tarjeta */
+.card-header {
+  background-color: #007bff;
+}
+
+/* Color de fondo del botón de registro */
+.btn-primary {
+  background-color: #007bff;
+
+  /* Color del borde del botón de registro */
+  border-color: #007bff;
+}
+
+/* Color de fondo al pasar el ratón sobre el botón de registro */
+.btn-primary:hover {
+  background-color: #0056b3;
+
+  /* Color del borde al pasar el ratón sobre el botón de registro */
+  border-color: #0056b3;
+}
+
+/* Estilo para el mensaje de registro exitoso */
+#registroExitoso {
+
+  /* Color de texto verde para indicar éxito */
+  color: #28a745;
+
+  /* Texto en negrita */
+  font-weight: bold;
+}
